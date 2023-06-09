@@ -61,6 +61,11 @@ form {
         left: 25px;
     }
 }
+@media screen and (max-width: 380px) {
+    form {
+        left: 27px;
+    }
+}
 
 form::before {
     content: "";
